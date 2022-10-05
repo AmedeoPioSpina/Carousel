@@ -1,0 +1,27 @@
+body{
+    .carousel{
+        border-bottom: 2px solid black;
+        display: flex;
+        justify-content: center;
+        .carouselImgs{
+            display: flex;
+            border: 2px solid black;
+            overflow-x: hidden;
+            width: 1000px;
+            margin: 1rem 0;
+            .carouselImg{
+                transition: transform, 1s;
+            }
+        }
+        .directionArrow{
+            display: flex;
+            margin: auto 1rem;
+            padding: 0;
+        }
+        #leftArrow{
+            img{
+                transform: rotate(180deg);
+            }
+        }
+    }
+}
